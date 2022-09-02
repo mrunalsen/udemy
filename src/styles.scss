@@ -1,0 +1,14 @@
+// Project base and component style import
+@import '~/src/assets/scss/base/index';
+
+// Project Specific Components
+@import '~/src/assets/scss/component/index';
+
+// Now other style import
+@import '~/src/assets/scss/layout/index';
+
+@import '~/src/assets/scss/utilities/index';
+
+// Vendor base and component style import
+@import '~/src/assets/scss/vendor/bootstrap-base';
+@import '~/src/assets/scss/vendor/bootstrap-components';
